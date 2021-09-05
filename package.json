@@ -1,0 +1,28 @@
+{
+  "name": "no-debugger",
+  "version": "0.1.0",
+  "description": "✔️ 阻止别人调试你的前端JavaScript代码",
+  "main": "no-debugger.js",
+  "scripts": {
+    "server": "hai2007_nodejs -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hai2007/no-debugger.js.git"
+  },
+  "keywords": [
+    "no",
+    "debugger",
+    "web"
+  ],
+  "author": "你好2007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hai2007/no-debugger.js/issues"
+  },
+  "homepage": "https://github.com/hai2007/no-debugger.js#readme",
+  "devDependencies": {
+    "@hai2007/nodejs": "^1.1.0",
+    "@hai2007/xhr": "^0.1.2"
+  }
+}

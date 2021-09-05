@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试 | no-debugger</title>
+    <script src="./no-debugger.js"></script>
+    <script src="./node_modules/@hai2007/xhr/dist/xhr.min.js"></script>
+</head>
+
+<body>
+
+    <p>
+        温馨提示:打开控制台试试!
+    </p>
+
+    <script>
+
+        // 发送请求
+        xhr({
+            method: "GET",
+            url: "./package.json"
+        }, function (data) {
+
+            // 成功
+            console.log(data);
+
+        }, function (error) {
+
+            // 错误
+            console.error(error);
+
+        });
+
+    </script>
+
+</body>
+
+</html>
