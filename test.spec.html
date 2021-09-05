@@ -16,24 +16,30 @@
         温馨提示:打开控制台试试!
     </p>
 
+    <button onclick='doit()'>点击我</button>
+
     <script>
 
-        // 发送请求
-        xhr({
-            method: "GET",
-            url: "./package.json"
-        }, function (data) {
+        function doit() {
 
-            // 成功
-            console.log(data);
+            // 发送请求
+            xhr({
+                method: "GET",
+                url: "./package.json"
+            }, function (data) {
 
-        }, function (error) {
+                // 成功
+                console.log(data);
 
-            // 错误
-            console.error(error);
+            }, function (error) {
 
-        });
+                // 错误
+                console.error(error);
 
+            });
+        }
+
+        doit();
     </script>
 
 </body>

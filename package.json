@@ -1,6 +1,6 @@
 {
   "name": "no-debugger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "✔️ 阻止别人调试你的前端JavaScript代码",
   "main": "no-debugger.js",
   "scripts": {
